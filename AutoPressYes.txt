@@ -1,0 +1,8 @@
+--Auto Press Yes
+while true do wait()
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.DialogApp.Dialog.NormalDialog.Buttons:GetDescendants()) do
+    if v:IsA("TextLabel") and v.Text == "Yes" and v.Parent.Parent.Parent.Visible == true then
+        firesignal(v.Parent.Parent.MouseButton1Click)
+    end
+end
+end

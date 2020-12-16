@@ -1,0 +1,13 @@
+--Notifs
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Credits:";
+Text = "Made By Velcori#1570";
+Duration = 5;
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Functions:";
+Text = "Anti-AFK, Gingerbread Farm, And Dragon Farm";
+Duration = 5;
+})

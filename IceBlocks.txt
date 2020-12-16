@@ -1,0 +1,12 @@
+--Auto IceBlock
+while true do wait()
+    pcall(function()
+for i=1,50 do
+local args = {
+    [1] = "IceBlock".. i
+}
+
+game:GetService("ReplicatedStorage").API["EventAPI/MeltIceBlock"]:FireServer(unpack(args))
+end
+end)
+end

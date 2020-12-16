@@ -1,0 +1,12 @@
+--Gingerbread Farm And Autosell
+while true do wait(10)
+    pcall(function()
+for i,v in pairs(game:GetService("Workspace").Interiors.MainMap:GetDescendants()) do
+    if v:IsA("MeshPart") and v.Name == "GingerbreadMan" then
+        wait(.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+    end
+end
+game:GetService("ReplicatedStorage").API["EventAPI/RedeemPendingGingerbread"]:FireServer()
+end)
+end

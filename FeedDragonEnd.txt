@@ -1,0 +1,12 @@
+--Feed Dragon End
+local textLabel = game:GetService("Players").LocalPlayer.PlayerGui.InMinigameApp.Body.Left.ValueLabel.Text
+local function onChanged()
+    if textLabel.Text == "00:01" then
+local args = {
+    [1] = "MainMap"
+}
+
+game:GetService("ReplicatedStorage").API["LocationAPI/SetLocation"]:FireServer(unpack(args))
+end
+end
+textLabel:GetPropertyChangedSignal("Text"):Connect(onChanged)
