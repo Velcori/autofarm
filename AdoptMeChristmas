@@ -1,0 +1,8 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/RemoteNameChanger.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/Paycheque.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/Notif.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/IceBlocks.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/Gingerbread.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/FeedDragonEnd.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/AutoPressYes.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Velcori/autofarm/main/AntiAFK.txt'))()
